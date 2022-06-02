@@ -17,6 +17,25 @@ html {
   font-size: 62.5%;
 }
 
+.grid {
+  display: grid;
+  align-items: center;
+  column-gap: 9.2;
+  row-gap: 6.2;
+}
+
+.grid--2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /*####################################### */
 
 /*  header */
@@ -77,10 +96,6 @@ html {
 
 .hero {
   max-width: 1300px;
-  display: grid;
-  gap: 9.2rem;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
 }
 
 .text-header {
@@ -163,4 +178,109 @@ html {
   color: #b8651b;
 }
 
+/* ******************** */
+
+.box-logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-section {
+  padding: 6.4rem 0 3.4rem 0;
+}
+.logo-title {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #888;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.logo {
+  height: 2.7rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
 /*####################################### */
+
+.how-row-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 9.2rem;
+}
+.how-it-works {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5;
+  font-size: 1.8rem;
+  color: #e67e22;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.how-header {
+  color: #222;
+  font-weight: 600;
+  font-size: 4.4em;
+}
+
+.how-img {
+  width: 35%;
+}
+.how-section {
+  padding: 9.2rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 9.2rem;
+}
+
+.how-number {
+  font-size: 9.2rem;
+  color: #999;
+}
+
+.how-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.6rem;
+  letter-spacing: -0.5;
+}
+
+.how-p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.how-img-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-back-2 {
+  position: absolute;
+  height: 33rem;
+  width: 33rem;
+  background-color: #fdf2e9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  border-radius: 1000px;
+}
+
+.img-back-1 {
+  position: absolute;
+  height: 25rem;
+  width: 25rem;
+  background-color: #fae5d3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 1000px;
+}
