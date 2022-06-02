@@ -1,0 +1,166 @@
+/* ---Color 
+-#d9480f 
+#e8590c
+#fff4e6*/
+
+/*####################################### */
+/*  MAIN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*####################################### */
+
+/*  header */
+.header {
+  background-color: #fff4e6;
+  height: 9.6rem;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header-navbar ul li {
+  list-style: none;
+}
+.header-logo {
+  height: 2.5rem;
+}
+
+.navbar-a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: all 0.4;
+}
+
+.navbar-a:hover {
+  color: #cf711f;
+}
+
+.last-a {
+  background-color: #cf711f;
+  padding: 1.2rem 2.4rem;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.4;
+}
+
+.last-a:hover {
+  background-color: #b8651b;
+  color: white;
+}
+/*####################################### */
+/*####################################### */
+/* HERO SECTION */
+
+.section-hero {
+  padding: 4.5rem 9.2rem 9.2rem;
+  background-color: #fff4e6;
+}
+
+.hero {
+  max-width: 1300px;
+  display: grid;
+  gap: 9.2rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.text-header {
+  font-size: 4.8rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5;
+  line-height: 1;
+}
+
+.hero-p {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 7.5rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5rem 3.2rem;
+  background-color: #e67e22;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  transition: background-color 1s;
+  margin-bottom: 6.2rem;
+}
+
+.btn:hover {
+  background-color: #cf711f;
+}
+
+.margin-right {
+  margin-left: 3rem;
+}
+
+.more-btn {
+  color: black;
+  background-color: white;
+}
+
+.more-btn:hover {
+  /* aw inset bo awaya properte ka bo nawawa bet nak darawa wa awa shewae pedane bordera la kate hover be awae qabarakae gawrabet */
+  box-shadow: inset 0 0 0 3px rgb(255, 255, 255);
+  background-color: #fff4e6;
+}
+
+.hero-img {
+  /* la parent e am wenaya krdwmana ba dw colum e yaksan lerash wtwmana ba width ka 100 la 100 ba qabarae newae parentaka wargret */
+  width: 100%;
+}
+
+.customer-box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.customer-img img {
+  height: 4rem;
+  width: 4rem;
+  border: 3px solid #fff4e6;
+  /* boya margin -1 bo awae wenakan bchnawa sar yaktre */
+  margin-right: -1rem;
+  border-radius: 50%;
+}
+
+.customer-img img:last-child {
+  margin: 0;
+}
+
+.customer-p {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.customer-p span {
+  font-weight: 700;
+  color: #b8651b;
+}
+
+/*####################################### */
