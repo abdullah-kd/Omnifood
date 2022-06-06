@@ -1,0 +1,11 @@
+@media (max-width: 69em) {
+  html {
+    font-size: 52.2%;
+  }
+  body {
+    background-color: #51cf66;
+  }
+  .grid--2 {
+    grid-template-columns: 1fr;
+  }
+}
